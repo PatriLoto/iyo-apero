@@ -31,8 +31,9 @@ enableEmoji = true
   orgName = "Patricia A. Loto"
   orgLocal = "Chaco, Argentina"
   description = "Sitio Personal de Patricia Loto"
-  favicon = "/img/favicon.ico"
-  logo = "/img/blogophonic-mark-dark.png"
+  #favicon = "/img/favicon.ico"
+  favicon = "/img/logo_rounded.ico"
+  logo = "/img/file-code-solid.svg"
   mainSections = ["blog", "project", "talk"]
   navallcaps = true
   # show/hide social icons in site header & footer
@@ -41,7 +42,7 @@ enableEmoji = true
   socialInFooter = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
-  sharing_image = "/img/papillons.jpg"
+  sharing_image = "/img/foto_perfil.png"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   twitter = "patriloto"
   
@@ -62,8 +63,8 @@ enableEmoji = true
   # sans-serif options: Commissioner / Alegreya Sans / Metropolis
   # if you import your own fonts, name them here too
   
-  customtextFontFamily = "Alegreya Sans"
-  customheadingFontFamily = "athelas"
+  customtextFontFamily = "Metropolis"  #Bitter
+  customheadingFontFamily = "San Francisco"
   
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
@@ -83,7 +84,7 @@ enableEmoji = true
       url       = "https://github.com/PatriLoto"
   [[params.social]]
       icon      = "envelope" # icon name without the 'fa-'
-      icon_pack = "fab"
+      icon_pack = "fas"
       url       = "mailto:patricia.andrea.loto@gmail.com"
   
   [[params.social]]
@@ -119,11 +120,11 @@ enableEmoji = true
     url = "/project/"
     weight = 3
 
-    [[menu.header]]
-    name = "Blog"
-    title = "Blog Personal"
-    url = "/blog/"
-    weight = 4
+    #[[menu.header]]
+    #name = "Blog"
+    #title = "Blog Personal"
+    #url = "/blog/"
+    #weight = 4
   
     
   # Configure footer  
