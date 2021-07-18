@@ -1,6 +1,6 @@
 baseURL = "/"
 theme = "hugo-apero"
-languageCode = "en"
+languageCode = "es"
 title = "Sitio Personal de Patricia Loto"
 author = "Patricia Loto"
 copyright = "" # set to override the auto generated copyright using org info and now year
@@ -28,9 +28,9 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "RStudio"
-  orgLocal = "Anywhere"
-  description = "A modern, beautiful, and easily configurable blog theme for Hugo."
+  orgName = "Patricia A. Loto"
+  orgLocal = "Chaco, Argentina"
+  description = "Sitio Personal de Patricia Loto"
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
   mainSections = ["blog", "project", "talk"]
@@ -48,7 +48,7 @@ enableEmoji = true
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "violet"
+  theme = "poppy"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -61,34 +61,35 @@ enableEmoji = true
   # serif options: Fraunces / EB Garamond / Bitter
   # sans-serif options: Commissioner / Alegreya Sans / Metropolis
   # if you import your own fonts, name them here too
-  customtextFontFamily = "Commissioner"
-  customheadingFontFamily = "Fraunces"
+  
+  customtextFontFamily = "Alegreya Sans"
+  customheadingFontFamily = "athelas"
+  
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
-  textFontFamily = "sans-serif"
-  headingFontFamily = "sans-serif"
+  textFontFamily = ""
+  headingFontFamily = ""
   
   # Social icons may appear on homepage and in site header or footer
   # Configure show/hide above - add as many as you like below
   # Icon pack "fab" includes brand icons, see: https://fontawesome.com/icons?d=gallery&s=brands&m=free
   # Icon pack "fas" includes solid icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
   # Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
+  
+  
   [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://github.com/apreshill/apero"
+      url       = "https://github.com/PatriLoto"
   [[params.social]]
-      icon      = "facebook-square" # icon name without the 'fa-'
+      icon      = "envelope" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://www.facebook.com/hashtag/ap%C3%A9ro"
-  [[params.social]]
-      icon      = "instagram" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.instagram.com/explore/tags/apero/"
+      url       = "mailto:patricia.andrea.loto@gmail.com"
+  
   [[params.social]]
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://twitter.com/hashtag/apéro"
+      url       = "https://twitter.com/patriloto"
   [[params.social]]
       icon      = "rss" # icon name without the 'fa-'
       icon_pack = "fas"
@@ -101,37 +102,47 @@ enableEmoji = true
 
 [menu]
   [[menu.header]]
-    name = "About"
-    title = "About Blogophonic"
+    name = "¿Quién soy?"
+    title = "Acerca de mí"
     url = "/about/"
     weight = 1
-  [[menu.header]]
-    name = "Blog"
-    title = "Blog"
-    url = "/blog/"
+  
+    [[menu.header]]
+    name = "Talleres"
+    title = "Talleres y Charlas"
+    url = "/talk/"
     weight = 2
+
   [[menu.header]]
-    name = "Projects"
-    title = "Project Portfolio"
+    name = "Comunidades"
+    title = "Comunidades"
     url = "/project/"
     weight = 3
-  [[menu.header]]
-    name = "Talks"
-    title = "Talks"
-    url = "/talk/"
+
+    [[menu.header]]
+    name = "Blog"
+    title = "Blog Personal"
+    url = "/blog/"
     weight = 4
+  
     
   # Configure footer  
-  [[menu.footer]]
-    name = "License"
-    title = "License"
-    url = "/license/"
+   [[menu.footer]]
+    name = "Accessibilidad"
+    title = "Accessibilidad"
+    url = "/accessibility/"
     weight = 1
-  [[menu.footer]]
-    name = "Contact"
-    title = "Contact form"
+    [[menu.footer]]
+    name = "Contacto"
+    title = "Formulario de Contacto"
     url = "/contact/"
     weight = 2
+  [[menu.footer]]
+    name = "Licencia"
+    title = "License"
+    url = "/license/"
+    weight = 3
+  
 
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]
