@@ -1,7 +1,7 @@
 ---
-title: A Project Portfolio To Grow
-description: "Give your projects a place to live online."
-author: "The R Markdown Team @RStudio"
+title: Mis comunidades preferidas
+description: "Siempre es mejor en comunidad"
+author: "De mis experiencias en grandes comunidades"
 show_post_thumbnail: true
 show_author_byline: true
 show_post_date: false
@@ -10,12 +10,10 @@ layout: list-grid # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar: 
-  title: A Sidebar for Your Projects
-  description: |
-    Projects can be anything!
-    Check out the _index.md file in the /project folder 
-    to edit this content.
-  author: "The R Markdown Team @RStudio"
+  title: Comunidades de ayer y de hoy
+  #description: |
+    #Comunidades 
+  #author: "The R Markdown Team @RStudio"
   text_link_label: ""
   text_link_url: ""
   show_sidebar_adunit: false # show ad container
