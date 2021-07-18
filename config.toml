@@ -94,6 +94,10 @@ enableEmoji = true
       icon      = "rss" # icon name without the 'fa-'
       icon_pack = "fas"
       url       = "/blog/index.xml"
+  [[params.social]]
+      icon      = "linkedin" # icon name without the 'fa-'
+      icon_pack = "fab"
+      url       = "https://www.linkedin.com/in/patricia-loto/"
 
 [taxonomies]
   category = "categories"
@@ -113,17 +117,23 @@ enableEmoji = true
     url = "/talk/"
     weight = 2
 
-  [[menu.header]]
+    [[menu.header]]
     name = "Comunidades"
     title = "Comunidades"
-    url = "/project/"
+    url = "/community/"
     weight = 3
+
+    [[menu.header]]
+    name = "Proyectos"
+    title = "Proyectos"
+    url = "/project/"
+    weight = 4
 
     #[[menu.header]]
     #name = "Blog"
     #title = "Blog Personal"
     #url = "/blog/"
-    #weight = 4
+    #weight = 5
   
     
   # Configure footer  
