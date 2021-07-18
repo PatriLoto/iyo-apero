@@ -1,12 +1,12 @@
 ---
-title: Mis comunidades preferidas
+title: Proyectos colaborativos
 description: "Siempre es mejor en comunidad"
-author: "De mis experiencias en grandes comunidades"
+author: "De mi experiencia trabajando colaborativamente"
 show_post_thumbnail: true
 show_author_byline: true
 show_post_date: false
 # for listing page layout
-layout: list-grid # list, list-sidebar, list-grid
+layout: list # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar: 
@@ -25,7 +25,7 @@ cascade:
   show_disqus_comments: false # see disqusShortname in site config
   # for single-sidebar layout only
   sidebar:
-    text_link_label: View all projects
+    text_link_label: Ver todos los projectos
     text_link_url: /project/
     show_sidebar_adunit: false # show ad container
 ---
