@@ -10,10 +10,15 @@ link_list_label: "Intereses" # bookmarks, elsewhere, etc.
 link_list:
 - name: Aprendizaje de R
   url: https://en.wikipedia.org/wiki/Paris
-- name: Pastries
-  url: https://en.wikipedia.org/wiki/Pastry
 - name: Accesibilidad
   url: https://en.wikipedia.org/wiki/People
+- name: Visualización de datos
+  url: https://en.wikipedia.org/wiki/Pastry
+link_list_label: "Actualmente" 
+link_list:
+- name: Leyendo Estadística para la toma de decisiones
+- name: Practicando yoga
+  
 ---
 
 ** index doesn't contain a body, just front matter above.

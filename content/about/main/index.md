@@ -1,11 +1,10 @@
 ---
 ## Configure page content in wide column
-title: "Lo que estoy haciendo últimamente" # leave blank to exclude
+title: "Actividades Recientes" # leave blank to exclude
 number_featured: 1 # pulling from mainSections in config.toml
 number_categories: 3 # set to zero to exclude
 show_intro: true
-intro: |
-  Mis últimas actividades
+#intro: |
 show_outro: true
 outro: |
   <i class="fas fa-mug-hot pr2 "></i>Si encontraste mi sitio útil, podes [comprarme un cafecito](https://ko-fi.com/)!
