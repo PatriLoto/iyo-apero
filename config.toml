@@ -2,7 +2,7 @@ baseURL = "/"
 theme = "hugo-apero"
 languageCode = "es"
 title = "Sitio Personal de Patricia Loto"
-author = "Patricia Loto"
+author = "Patricia A. Loto"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
 disqusShortname = ""
@@ -33,7 +33,8 @@ enableEmoji = true
   description = "Sitio Personal de Patricia Loto"
   #favicon = "/img/favicon.ico"
   favicon = "/img/logo_rounded.ico"
-  logo = "/img/file-code-solid.svg"
+  logo = "/img/loto-verde.svg" 
+  # logo = "/img/file-code-solid.svg"  # normal catcher barras lotusflor-de-loto snowshoe-cat
   mainSections = ["blog", "project", "talk"]
   navallcaps = true
   # show/hide social icons in site header & footer
@@ -49,7 +50,7 @@ enableEmoji = true
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "violet" #poppy
+  theme = "violet"              # 2do option:poppy
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -62,8 +63,8 @@ enableEmoji = true
   # sans-serif options: Commissioner / Alegreya Sans / Metropolis
   # if you import your own fonts, name them here too
   
-  customtextFontFamily = "Metropolis"  #Bitter
-  customheadingFontFamily = "San Francisco"
+  customtextFontFamily = "Metropolis"  # Commissioner EB Garamond(al reves) Bitter(muy clara)  Alegreya Sans(chica) San Francisco(chica)
+  customheadingFontFamily = "EB Garamond" # Fraunces San Francisco
   
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
@@ -90,10 +91,10 @@ enableEmoji = true
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://twitter.com/patriloto"
-  [[params.social]]
-      icon      = "rss" # icon name without the 'fa-'
-      icon_pack = "fas"
-      url       = "/blog/index.xml"
+  #[[params.social]]
+     # icon      = "rss" # icon name without the 'fa-'
+     # icon_pack = "fas"
+      # url       = "/blog/index.xml"
   [[params.social]]
       icon      = "linkedin" # icon name without the 'fa-'
       icon_pack = "fab"
