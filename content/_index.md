@@ -1,6 +1,6 @@
 ---
-title: " Hola | Oi | Hi | Bonjour... Soy Patricia A. Loto"
-subtitle: "Apasionada por la tecnología y los datos"
+title: " 👋 Soy Patricia A. Loto"
+subtitle: "Apasionada por la tecnología y los datos | Trabajando por la accesibilidad y la diversidad."
 description: ""
 date: 2019-02-18T12:27:33-06:00
 images:

@@ -13,5 +13,3 @@ show_poweredby_formspree: true
 formspree_form_id: patricia.andrea.loto@email.here
 ---
 
-** Contact page don't contain a body, just the front matter above.
-See form.html in the layouts folder **
