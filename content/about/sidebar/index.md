@@ -12,7 +12,9 @@ link_list:
   url: https://en.wikipedia.org/wiki/People
 - name: Escuchar el Podcast de Devrock
   url: https://open.spotify.com/show/5uRPZ5r7bRkW29c5AkppXq
-- name: Leyendo Argentina Emprendedora
+- name: El arte de Gaudí
+  url: https://www.casabatllo.es/el-dia-de-sant-jordi/
+
 #link_list:
 #- name: Aprendizaje de R
  # url: https://en.wikipedia.org/wiki/Paris
