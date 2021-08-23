@@ -155,6 +155,16 @@
        url('#{$font-path}/alegreya-sans-v13-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+@font-face {
+  font-family: 'Lato';
+  font-style: sans-serif;
+  font-weight: 300;
+  src: local(''),
+       url('#{$font-path}/Lato-light.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('#{$font-path}/alegreya-sans-v13-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
 // create custom font classes 
 .custom-text-font { font-family: $customtextFontFamily; }
 .custom-heading-font { font-family: $customheadingFontFamily; }
