@@ -4,7 +4,7 @@ subtitle: "Apasionada por la tecnología y los datos | Trabajando por la accesib
 description: ""
 date: 2019-02-18T12:27:33-06:00
 images:
-  - img/corrientes.png
+  - img/imagen_home.png
 image_left: true
 text_align_left: false
 show_social_links: true # specify social accounts in site config
