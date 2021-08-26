@@ -1,12 +1,12 @@
 ---
 title: "Metadocencia"
 subtitle: "Comunidad de Enseñanza"
-excerpt: "organización sin fines de lucro que nutre una comunidad docente hispanohablante enseñando métodos educativos concretos, basados en evidencia y centrados en tus estudiantes.."
+excerpt: "Es una organización sin fines de lucro que nutre una comunidad docente hispanohablante enseñando métodos educativos concretos, basados en evidencia y centrados en tus estudiantes."
 date: 2019-07-01
 #author: "Eric Anderson"
 draft: false
-tags:
-  - hugo-site
+#tags:
+
 categories:
   - Comunidades
   - R
